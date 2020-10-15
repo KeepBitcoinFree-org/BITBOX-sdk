@@ -1,0 +1,147 @@
+{
+  "_args": [
+    [
+      "bitbox-sdk@8.1.0",
+      "/root/slp-faucet"
+    ]
+  ],
+  "_from": "bitbox-sdk@8.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "bitbox-sdk@8.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bitbox-sdk",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bitbox-sdk_8.1.0_1558504520625_0.704502832385254"
+  },
+  "_npmUser": {
+    "email": "gabriel.cardona@clone.earth",
+    "name": "gabriel.cardona"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "bitbox-sdk",
+    "raw": "bitbox-sdk@8.1.0",
+    "rawSpec": "8.1.0",
+    "scope": null,
+    "spec": "8.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitbox-sdk/-/bitbox-sdk-8.1.0.tgz",
+  "_shasum": "f1b8e0d6c53ca60b2c34902bfe9ce12ef9c29599",
+  "_shrinkwrap": null,
+  "_spec": "bitbox-sdk@8.1.0",
+  "_where": "/root/slp-faucet",
+  "author": {
+    "email": "gabriel@bitcoin.com",
+    "name": "Gabriel Cardona"
+  },
+  "bugs": {
+    "url": "https://github.com/Bitcoin-com/bitbox-sdk/issues"
+  },
+  "contributors": [
+    {
+      "name": "Chris Troutner",
+      "email": "chris.troutner@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@types/bigi": "^1.4.2",
+    "@types/bip39": "^2.4.2",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.11.7",
+    "@types/randombytes": "^2.0.0",
+    "@types/sinon": "^7.0.11",
+    "@types/wif": "^2.0.1",
+    "assert": "^1.4.1",
+    "axios": "0.18.0",
+    "bc-bip68": "^1.0.5",
+    "bch-wallet-bridge.js": "github:web3bch/bch-wallet-bridge.js#master",
+    "bigi": "^1.4.2",
+    "bip-schnorr": "^0.3.0",
+    "bip21": "github:bitcoin-com/bip21",
+    "bip32-utils": "github:bitcoin-com/bip32-utils#0.13.1",
+    "bip38": "^2.0.2",
+    "bip39": "^2.5.0",
+    "bip66": "^1.1.5",
+    "bitcoincash-ops": "github:bitcoin-com/bitcoincash-ops#2.0.0",
+    "bitcoincashjs-lib": "github:bitcoin-com/bitcoincashjs-lib#v4.0.0",
+    "bitcoinjs-message": "^2.0.0",
+    "browserify": "^16.2.2",
+    "bs58": "^4.0.1",
+    "buffer": "^5.1.0",
+    "cashaddrjs": "^0.2.9",
+    "coininfo": "github:bitcoin-com/coininfo",
+    "qrcode": "^1.2.0",
+    "randombytes": "^2.0.6",
+    "repl.history": "^0.1.4",
+    "safe-buffer": "^5.1.2",
+    "satoshi-bitcoin": "^1.0.4",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "wif": "^2.0.6"
+  },
+  "description": "BITBOX SDK for Bitcoin Cash",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^0.1.3",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.0.1",
+    "nock": "^10.0.6",
+    "node-mocks-http": "^1.7.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.14.2",
+    "semantic-release": "^15.13.3",
+    "sinon": "^4.5.0",
+    "source-map-support": "^0.5.12",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 69,
+    "integrity": "sha512-kCRsTH0JxXPhtK/at3JGWf6nqv0pawFo1B2ii5EIpy2ux0O2lQzpVZLR28ACWx1neQrIn83q1wZaSr7BFHUs0Q==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5ORJCRA9TVsSAnZWagAAj4gP/24mYCcoztNEXkFJjA5/\nxL2KbNQpWzeoHjjLDBrWznhovUs/EEXyL77vVqvG6tKoREmbQhde2rUPodTi\nEeycDcTXshTJRn+DfPSJ548+7Vqn1YBrWFDio/Mub7sWiHW81zjXC3yZWQtG\nRqLM3F7sba63qFgfXLjjsnOexsl4DCbQ/f+9NlpteJXC/rWFA9nnD5VNuAdG\nxamxjLDkhuCVHw/KDRk/P8mV8mDwYaVyuZjiKpAXqexquGKNdZMWcngxfgTo\nG+3bQh4+tL9xZpqK9BLQuHotCQJsAMX6LQO+6VSfa2Wn0b+5lorCQPX1iuhe\nrof7+4RNjuVM4DsFQj7Zcpr3lYkXCu4/KNPsqwJrJnwyKjbQtkdvFEX0UcT8\nCU+n6aTXnXQGIZ1MVJLZvNipOrCqfmnsHSjSmTu/pmXu5ryXKlV/d96jC6LV\nVDXuVYvER7FQzhIRjucmIHya/vYLN70ZC0X8KKFyADEb/s4hIplcimBV3csG\nLNSgnhGeSKjH6DLq5uzWtYvniEyteHpt7RZG3Czy56+s3/ypW7S3k2NVoC8j\nu87LL3gqbo8X7q7Oh/oruRbs0t36Kxv5s3iMH/hA9bDTUSxxeAetcmsknv0K\nfqJgoQatcwt5VJCtmo+/p4nRWwKYB+Zetam7ZMGN6nzQk1ZFuTeohK9OeOL1\nwllg\r\n=l3o3\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f1b8e0d6c53ca60b2c34902bfe9ce12ef9c29599",
+    "tarball": "https://registry.npmjs.org/bitbox-sdk/-/bitbox-sdk-8.1.0.tgz",
+    "unpackedSize": 278374
+  },
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "gitHead": "b589a61d7431c166fce59cd862acae8fcdb9f4d3",
+  "homepage": "https://developer.bitcoin.com/bitbox",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "gabriel.cardona",
+      "email": "gabriel.cardona@clone.earth"
+    }
+  ],
+  "name": "bitbox-sdk",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitcoin-com/bitbox-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "tsc && nyc mocha test/unit --timeout 60000 --exit",
+    "test:integration": "TEST=integration nyc --reporter=text mocha --require babel-core/register --timeout 30000 test/integration"
+  },
+  "version": "8.1.0"
+}
